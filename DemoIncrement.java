@@ -17,13 +17,16 @@ public class DemoIncrement {
         // b:8
         System.out.print(", x: " + x);
         // x:4
-        System.out.println(", y: " + y);
+        System.out.print(", y: " + y);
         // y:9
 
-        System.out.println("a:" + a +", b:"+b +", x:"+ x+", y:" + y +", p:"+ p +", q:"+ q);
+        System.out.print(", p: " + p);
 
+        System.out.println(", q: " + q);
+        
+        //System.out.println("a: " + a +", b: "+b +", x: "+ x+", y: " + y);
         // Replace the xxxxx in the following with the correct term
-        System.out.println("i++ means Post-increment");
-        System.out.println("++i means Pre-increment");
+        System.out.println("i++ means post-increment");
+        System.out.println("++i means pre-increment");
     }
 }
