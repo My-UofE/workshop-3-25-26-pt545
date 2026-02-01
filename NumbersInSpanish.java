@@ -4,7 +4,7 @@ public class NumbersInSpanish {
        int number = Integer.parseInt(args[0]); 
  
         //String[] SpanishNums = {"uno","dos","tres","cuatro","cinco"};
-
+        /*
         if(number == 1){
             System.out.println("uno");
         }else if (number == 2){
@@ -18,7 +18,20 @@ public class NumbersInSpanish {
         }else{
             System.out.println("Sorry I do not know that!");
         }
+        */
 
-
+       
+       switch(number) {
+        case 1:
+           System.out.println("uno"); break; 
+        case 2:
+           System.out.println("dos"); break;
+        case 3:
+           System.out.println("tres"); break;
+        case 4:
+           System.out.println("cuatro"); break;
+        case 5:
+           System.out.println("cinco"); break;
+        default: System.out.println("Sorry I do not know that!");; 
     }
  }
