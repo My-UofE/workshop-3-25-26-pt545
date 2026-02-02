@@ -32,6 +32,6 @@ public class NumbersInSpanish {
            System.out.println("cuatro"); break;
         case 5:
            System.out.println("cinco"); break;
-        default: System.out.println("Sorry I do not know that!");; 
+        default: System.out.println("Sorry I do not know that!");; }
     }
  }
